@@ -122,6 +122,8 @@ function App() {
 									className="btn"
 									id="break-increment"
 									onClick={handleBreakIncrease}
+									disabled={play}
+									style={{ border: "none" }}
 								>
 									<i className="bi bi-arrow-up-short fs-2"></i>
 								</button>
@@ -130,6 +132,8 @@ function App() {
 									className="btn"
 									id="break-decrement"
 									onClick={handleBreakDecrease}
+									disabled={play}
+									style={{ border: "none" }}
 								>
 									<i className="bi bi-arrow-down-short fs-2"></i>
 								</button>
@@ -142,6 +146,8 @@ function App() {
 									className="btn"
 									id="session-increment"
 									onClick={handleSessionIncrease}
+									disabled={play}
+									style={{ border: "none" }}
 								>
 									<i className="bi bi-arrow-up-short fs-2"></i>
 								</button>
@@ -150,6 +156,8 @@ function App() {
 									className="btn"
 									id="session-decrement"
 									onClick={handleSessionDecrease}
+									disabled={play}
+									style={{ border: "none" }}
 								>
 									<i className="bi bi-arrow-down-short fs-2"></i>
 								</button>
